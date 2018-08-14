@@ -199,6 +199,11 @@ public class SettingsActivity extends SettingsBaseActivity
 
     private DashboardFeatureProvider mDashboardFeatureProvider;
 
+    // carbon additions start
+    public static final String KEY_HIDE_SUMMARY = "hide_summary";
+    public static final String KEY_COLUMNS_COUNT = "columns_count";
+    public static final String APP_PREFERENCES_NAME = "app_settings";
+
     public SettingsMainSwitchBar getSwitchBar() {
         return mMainSwitch;
     }
